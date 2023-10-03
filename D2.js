@@ -67,8 +67,8 @@ console.log("Il totale è di: ", totalShoppingCart2 + shippingCosts2)
   gratuite oppure no e e calcolando il totale.
 */
 
-const discount = 0.2
-const totalDiscountedShoppingCart = totalShoppingCart-totalShoppingCart*discount
+const discountBlackFriday = 0.2
+const totalDiscountedShoppingCart = totalShoppingCart-totalShoppingCart*discountBlackFriday
 shippingCosts = totalDiscountedShoppingCart > 50 ? 0 : 10
 console.log("Il totale è di: ", totalDiscountedShoppingCart + shippingCosts)
 
